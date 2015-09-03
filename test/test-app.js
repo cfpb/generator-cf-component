@@ -7,9 +7,9 @@ var os = require('os');
 
 describe('generator-cf-component:app', function () {
   before(function (done) {
-    helpers.run(path.join(__dirname, '../generators/app'))
+    helpers.run(path.join(__dirname, '../app'))
       .withOptions({ skipInstall: true })
-      .withPrompts({ someOption: true })
+      .withPrompts({ name: 'test' })
       .on('end', done);
   });
 
@@ -17,8 +17,11 @@ describe('generator-cf-component:app', function () {
     assert.file([
       'bower.json',
       'package.json',
-      '.editorconfig',
-      '.jshintrc'
+      'Gruntfile.js',
+      '.bowerrc',
+      './src/cf-test.less',
+      './demo/custom.html',
+      './demo/index.html'
     ]);
   });
 });
