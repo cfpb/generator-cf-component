@@ -32,7 +32,6 @@ module.exports = yeoman.generators.Base.extend({
   writing: {
 
     app: function () {
-      var files = ['screenshot.png', 'CHANGELOG.md', 'TERMS.md', 'CONTRIBUTING.md', 'LICENSE'];
       var context = {
        component_name: this.props.name
      };
@@ -47,7 +46,7 @@ module.exports = yeoman.generators.Base.extend({
      this.template('demo/_custom.html', 'demo/custom.html');
 
      // make a directory for the demo css
-     mkdirp('./docs/static/css/', function(err) {
+     mkdirp('./ docs/static/css/', function(err) {
        if (err) console.error(err);
      });
     },
