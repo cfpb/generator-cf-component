@@ -1,47 +1,56 @@
-# generator-generator-cf-component [![Build Status](https://secure.travis-ci.org/cfpb/generator-cf-component.png?branch=master)](https://travis-ci.org/cfpb/generator-cf-component)
+# generator-cf-component [![Build Status](https://secure.travis-ci.org/cfpb/generator-cf-component.png?branch=master)](https://travis-ci.org/cfpb/generator-cf-component)
 
-> [Yeoman](http://yeoman.io) generator
+[Yeoman](http://yeoman.io) generator for creating [Capital Framework](http://cfpb.github.io/capital-framework/) components.
 
+## Installation
 
-## Getting Started
-
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+Install Yeoman and the Capital Framework component generator:
 
 ```bash
-npm install -g yo
+npm install -g yo generator-cf-component
 ```
 
-### Yeoman Generators
+## Usage
 
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
+Create a new project directory and `cd` to it:
+```bash
+mkdir my-new-project && cd $_
+```
 
-To install generator-generator-cf-component from npm, run:
+Run the Capital Framework component generator:
+```bash
+yo cf-component
+```
+Compile the assets:
+```bash
+grunt
+```
+
+View the component demo page:
+```bash
+open ./demo/index.html
+```
+
+Build your component!
+
+## Contributing
+
+To hack on this generator, fork this repo, clone it and use `npm link`:
 
 ```bash
-npm install -g generator-generator-cf-component
+$ cd generator-cf-component
+$ npm link
+$ cd some-empty-directory-somewhere
+$ yo cf-component
 ```
 
-Finally, initiate the generator:
+Edit the source files and re-run `yo cf-component` to see the changes.
+Please modify the current tests or write new tests if you add functionality to the generator.
+Tests can be executed by running `npm test` from the project's root.
 
-```bash
-yo generator-cf-component
-```
+----
 
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
-
-## License
-
-Public Domain
+## Open source licensing info
+1. [TERMS](TERMS.md)
+2. [LICENSE](LICENSE)
+3. [CFPB Source Code Policy](https://github.com/cfpb/source-code-policy/)
