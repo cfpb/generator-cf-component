@@ -1,5 +1,5 @@
 {
-  "name": "<%= component_name %>",
+  "name": "<%= componentName %>",
   "version": "0.0.0",
   "scripts": {
     "pretest": "forever stopall -s && forever start -s ./node_modules/.bin/http-server",

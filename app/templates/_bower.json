@@ -1,5 +1,5 @@
 {
-  "name": "<%= component_name %>",
+  "name": "<%= componentName %>",
   "version": "0.0.0",
   "description": "",
   "keywords": [
@@ -13,13 +13,13 @@
       "url": "https://cfpb.github.io/"
     }
   ],
-  "homepage": "https://github.com/cfpb/<%= component_name %>",
+  "homepage": "https://github.com/cfpb/<%= componentName %>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cfpb/<%= component_name %>.git"
+    "url": "https://github.com/cfpb/<%= componentName %>.git"
   },
-  "license": "https://github.com/cfpb/<%= component_name %>/blob/gh-pages/TERMS.md",
-  "main": "src/<%= component_name %>.less",
+  "license": "https://github.com/cfpb/<%= componentName %>/blob/gh-pages/TERMS.md",
+  "main": "src/<%= componentName %>.less",
   "dependencies": {
     "cf-core": "^1.0.0"
   },

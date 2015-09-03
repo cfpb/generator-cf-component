@@ -33,7 +33,7 @@ module.exports = yeoman.generators.Base.extend({
 
     app: function () {
       var context = {
-       component_name: this.props.name
+       componentName: this.props.name
      };
 
      // copy over files
