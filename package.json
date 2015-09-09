@@ -2,13 +2,12 @@
   "name": "generator-cf-component",
   "version": "0.1.0",
   "description": "Yeoman generator for Capital Framework components",
-  "license": "MIT",
+  "license": "SEE LICENSE IN TERMS.md",
   "main": "app/index.js",
   "repository": "cfpb/generator-cf-component",
   "author": {
     "name": "Consumer Financial Protection Bureau",
-    "email": "",
-    "url": "https://github.com/cfpb"
+    "url": "https://cfpb.github.io/"
   },
   "scripts": {
     "test": "mocha"
