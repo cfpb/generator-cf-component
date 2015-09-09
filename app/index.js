@@ -41,7 +41,7 @@ module.exports = yeoman.generators.Base.extend({
      this.template('_bower.json', 'bower.json', context);
      this.template('bowerrc', '.bowerrc', context);
      this.template('_Gruntfile.js', 'Gruntfile.js');
-     this.template('src/_cf.less', 'src/cf-' + this.props.name  + '.less', context);
+     this.template('src/_cf.less', 'src/' + this.props.name  + '.less', context);
      this.template('demo/_custom.html', 'demo/custom.html');
 
      // make a directory for the demo css
