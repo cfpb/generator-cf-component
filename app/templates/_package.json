@@ -1,6 +1,6 @@
 {
   "name": "<%= componentName %>",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "pretest": "forever stopall -s && forever start -s ./node_modules/.bin/http-server",
     "test": "pa11y localhost:8080/demo -s WCAG2AA && npm run coverage",
