@@ -1,17 +1,8 @@
+# Change Log
 All notable changes to this project will be documented in this file.
-We follow the [Semantic Versioning 2.0.0](http://semver.org/) format.
+This project adheres to [Semantic Versioning](http://semver.org/).
 
-
-## x.y.z - YYYY-MM-DD
-
-### Added
-- Lorem ipsum dolor sit amet
-
-### Deprecated
-- Nothing.
-
-### Removed
-- Nothing.
-
-### Fixed
-- Nothing.
+## [Unreleased] 2015-09-03
+### Changed
+- Set up initial yeoman generator
+- Test file creation
