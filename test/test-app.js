@@ -21,7 +21,6 @@ describe('generator-cf-component:app', function () {
       '.bowerrc',
       './src/cf-test.less',
       './demo/custom.html',
-      './demo/index.html'
     ]);
   });
 });
