@@ -9,7 +9,7 @@ describe('generator-cf-component:app', function () {
   before(function (done) {
     helpers.run(path.join(__dirname, '../app'))
       .withOptions({ skipInstall: true })
-      .withPrompts({ name: 'test' })
+      .withPrompts({ name: 'cf-test' })
       .on('end', done);
   });
 
