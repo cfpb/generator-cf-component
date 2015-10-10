@@ -1,6 +1,6 @@
 {
   "name": "generator-cf-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yeoman generator for Capital Framework components",
   "license": "SEE LICENSE IN TERMS.md",
   "main": "app/index.js",
@@ -13,7 +13,7 @@
     "test": "mocha"
   },
   "files": [
-    "generators"
+    "app"
   ],
   "keywords": [
     "yeoman-generator"
